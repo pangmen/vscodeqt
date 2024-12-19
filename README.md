@@ -1,2 +1,4 @@
 # vscodeqt
 vscodeqt
+
+QT CMakeLists
