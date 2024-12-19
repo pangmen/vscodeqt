@@ -7,6 +7,8 @@ project(planning
 )
 
 set(CMAKE_CXX_STANDARD 17)
+enable_testing()
+
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 set(Process_Dir ${CMAKE_SOURCE_DIR}/src/process)
@@ -29,3 +31,4 @@ message("Eigen3 not found")
 endif()
 
 add_subdirectory(src)
+add_subdirectory(test/map_test)
