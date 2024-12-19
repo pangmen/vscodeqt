@@ -16,3 +16,9 @@ target_link_libraries(
     PUBLIC
 pnc_map
 )
+
+target_link_libraries(
+    ${PROJECT_NAME} 
+    PUBLIC
+    Eigen3::Eigen
+)

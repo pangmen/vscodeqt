@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "format": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "dense": "cpp",
+        "eigenvalues": "cpp"
     }
 }
